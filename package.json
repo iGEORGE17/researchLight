@@ -1,0 +1,19 @@
+{
+  "name": "researchLight",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck"
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@12.4.2",
+  "devDependencies": {
+    "turbo": "^2.10.13"
+  }
+}
