@@ -21,7 +21,7 @@ export default function Navbar() {
           href="/"
           className="flex items-center text-lg font-semibold tracking-tight"
         >
-            <FaGraduationCap />
+            <FaGraduationCap className="mr-1"/>
           <span className="text-primary">Research</span>
           <span className="text-gold">Light</span>
         </Link>
