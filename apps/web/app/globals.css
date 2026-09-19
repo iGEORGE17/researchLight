@@ -89,6 +89,8 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --font-display: var(--font-newsreader), ui-serif, Georgia, serif;
+    --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
   }
 }
 
