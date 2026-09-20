@@ -5,11 +5,11 @@ import { FaGraduationCap } from "react-icons/fa6";
 
 const navLinks = [
   { label: "Home", href: "/" },
-  { label: "About", href: "about" },
-  { label: "Services", href: "#" },
-  { label: "Resources", href: "#" },
-  { label: "Blog", href: "#" },
-  { label: "FAQ", href: "#" },
+  { label: "About", href: "/about" },
+  { label: "Services", href: "/services" },
+  { label: "Resources", href: "/resources" },
+  { label: "Blog", href: "/blog" },
+  { label: "FAQ", href: "/faq" },
 ];
 
 export default function Navbar() {
