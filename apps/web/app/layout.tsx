@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Newsreader, Manrope } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import {Toaster }from "sonner"
+import { Footer } from "@/components/Footer";
 
 
 const newsreader = Newsreader({
@@ -29,6 +31,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col">
         <Navbar />
         {children}
+        <Toaster />
+        <Footer />
         </body>
     </html>
   );
