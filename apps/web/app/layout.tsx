@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import {Toaster }from "sonner"
 import { Footer } from "@/components/Footer";
+import { WhatsAppButton } from "@/components/WhatsappBtn";
 
 
 const newsreader = Newsreader({
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         {children}
         <Toaster />
         <Footer />
+        <WhatsAppButton />
         </body>
     </html>
   );
