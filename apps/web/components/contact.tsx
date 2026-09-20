@@ -27,7 +27,7 @@ export function ContactPageClient() {
     <section className="relative bg-background lg:h-screen h-full flex justify-center items-center">
         <div className="mx-auto lg:min-w-6xl px-6 mt-20">
       <p className="eyebrow">Contact</p>
-      <h1 className="mt-3 rule-gold max-w-3xl text-4xl sm:text-5xl">Book a consultation</h1>
+      <h1 className="mt-3 rule-gold max-w-3xl font-display text-4xl sm:text-5xl">Book a consultation</h1>
       <p className="mt-6 max-w-2xl leading-relaxed text-muted-foreground">
         Tell us where you are in your research and what you need. We usually respond within one
         business day.

@@ -4,6 +4,9 @@
 :root {
   --radius: 0.5rem;
 
+  --font-display: var(--font-newsreader), ui-serif, Georgia, serif;
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+
   --background: oklch(100% 0 0);
   --foreground: oklch(28% 0.006 285);
 
@@ -42,6 +45,9 @@
 
 @theme inline {
   --radius: 0.5rem;
+
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-newsreader), ui-serif, Georgia, serif;
 
   --color-background: oklch(100% 0 0);
   --color-foreground: oklch(28% 0.006 285);
@@ -89,13 +95,35 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-    --font-display: var(--font-newsreader), ui-serif, Georgia, serif;
-    --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
 }
+
+h1 {
+  font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.rule-gold::after {
+    content: "";
+    background: var(--color-gold);
+    border-radius: 999px;
+    width: 3.5rem;
+    height: 3px;
+    margin-top: 1rem;
+    display: block;
+}
+
+
